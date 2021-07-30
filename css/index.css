@@ -1,0 +1,15 @@
+.images {
+    height: 300px;
+    border: 2px solid blue;
+}
+
+
+.footer {
+    bottom: 0;
+    border: 2px solid red;
+    height: 200px;
+}
+
+#accordion {
+    margin: 142px;
+}
