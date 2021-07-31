@@ -1,7 +1,36 @@
+.navbar {
+    background-color: turquoise !important;
+}
+
+.display-4 {
+    margin-top: 40px;
+}
+
+.lead {
+    width: 70%;
+}
+
+.accordionSection {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 30px;
+}
+
+
+#accordion .btn {
+    color: white;
+}
+
+.card-header {
+    background-color: rgb(56, 56, 56);
+}
+
+
 .images {
     height: 300px;
     border: 2px solid blue;
 }
+
 
 
 .footer {
