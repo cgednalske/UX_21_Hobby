@@ -1,19 +1,42 @@
+.jumbotron {
+    background-image: url(../images/filmphoto2.JPG);
+    background-size: cover;
+}
+
+.jumbotronContent {
+
+}
+
 .navbar {
     background-color: turquoise !important;
+}
+
+.navbar-collapse {
+    margin-left: 3%;
+}
+
+.nav-item {
+    padding: 2%;
 }
 
 .display-4 {
     margin-top: 40px;
 }
 
+
+
 .lead {
     width: 70%;
+}
+
+.introSummary {
+    margin: 6%;
 }
 
 .accordionSection {
     margin-left: 6%;
     margin-right: 6%;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 
@@ -39,3 +62,14 @@
     height: 200px;
 }
 
+.summaryAccordion {
+    color: white;
+    padding: 1%;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.buttonHeading {
+    color: turquoise !important;
+    font-size: 20px;
+}
