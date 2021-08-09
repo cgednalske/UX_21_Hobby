@@ -8,7 +8,7 @@
 }
 
 
-.jumbotron {
+.puzzleJumbotron {
     background-image: url(../images/darkpuzzle.jpg);
     background-size: cover;
     background-blend-mode: multiply;
