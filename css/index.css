@@ -1,14 +1,55 @@
 .jumbotron {
-    background-image: url(../images/filmphoto2.JPG);
+    background-image: url(../images/darkpuzzle.jpg);
     background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+    
+}
+
+.homeJumbotron {
+    height: 80vh;
+    background-image: url(../images/closeup_charcoal_colors.jpg) !important;
+    background-size: cover;
+    color: white;
+   
 }
 
 .jumbotronContent {
+    padding-left: 4%;
+}
 
+.homeContent {
+   margin-top: 20vh;
+   padding-right: 4%;
+   
+}
+
+.homeTitle {
+    text-align: center;
+    font-size: 50px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    
+
+}
+.homeLead {
+    text-align: center;
+    width: 100% !important;
 }
 
 .navbar {
     background-color: turquoise !important;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar-brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.hobbyIcon {
+    width: 40px;
+    margin-right: 6px;
 }
 
 .navbar-collapse {
@@ -16,12 +57,20 @@
 }
 
 .nav-item {
-    padding: 2%;
+    padding: 1%;
+}
+.nav-link {
+    font-size: 17px;
 }
 
 .display-4 {
     margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 20px;
 }
+
 
 
 
@@ -30,13 +79,37 @@
 }
 
 .introSummary {
-    margin: 6%;
+    margin: 0%;
 }
 
+.summaryTitle img {
+    object-fit: cover;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+.galleryImage {
+    z-index: -9;
+    
+}
+.galleryText {
+    position: absolute;
+    z-index: 999;
+}
+
+
+
 .accordionSection {
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    box-shadow: 2px 5px 5px lightgrey;
 }
 
 
@@ -44,32 +117,91 @@
     color: white;
 }
 
-.card-header {
-    background-color: rgb(56, 56, 56);
+.featuredHome {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    color:rgb(255, 189, 65);
+    font-weight: bold;
 }
 
+.card-header {
+    background-color: white;
+}
 
 .images {
     height: 300px;
     border: 2px solid blue;
 }
 
+.introSummary img {
+    width: 100%;
 
+}
+.introSummary {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.photoCards {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
 
 .footer {
     bottom: 0;
-    border: 2px solid red;
-    height: 200px;
+    background-color: turquoise;
+    height: 300px;
 }
 
 .summaryAccordion {
-    color: white;
     padding: 1%;
-    font-weight: lighter;
     font-size: 16px;
 }
 
 .buttonHeading {
-    color: turquoise !important;
-    font-size: 20px;
+    color: black !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    
+}
+.card-body {
+    background-color: turquoise !important;
+    padding: 6%;
+}
+
+.card {
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+.carousel {
+    height: 500px;
+    margin-top: 6%;
+    margin-bottom: 6%
+}
+
+.homeCarousel {
+    margin-top: 0 !important;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-control-next {
+    color: black !important:
+}
+
+.exploreMore {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.exploreButton {
+    width: 300px;
 }
