@@ -1,3 +1,13 @@
+.photoJumbotron {
+    background-image: url(../images/darkpuzzle.jpg) !important;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+    
+}
+
+
 .jumbotron {
     background-image: url(../images/darkpuzzle.jpg);
     background-size: cover;
