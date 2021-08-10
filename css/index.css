@@ -68,14 +68,19 @@
 
 .navbar-collapse {
     margin-left: 3%;
+    padding-left: 24%;
 }
 
 .nav-item {
     padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .nav-link {
     font-size: 17px;
 }
+
+
 
 .display-4 {
     margin-top: 40px;
@@ -232,7 +237,7 @@
     align-items: flex-end;
     justify-content: center; 
     margin-right: 2%;
-    margin-left: 0;
+    margin-left: 2%;
     padding-right: 4%;
    
    
@@ -267,4 +272,8 @@
 
 .footerLogo img {
     padding-top: 2%;
+}
+
+.inactive {
+    color: lightgrey !important;
 }
