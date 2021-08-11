@@ -56,25 +56,27 @@
     padding-right: 2%;
 }
 
+
 .navbar-brand {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
     font-weight: bold;
+}
+
+.navbar-nav {
+   margin-left: 70%;
 }
 .hobbyIcon {
     width: 40px;
     margin-right: 6px;
 }
 
-.navbar-collapse {
-    margin-left: 3%;
-    padding-left: 24%;
-}
-
 .nav-item {
     padding: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .nav-link {
     font-size: 17px;
